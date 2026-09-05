@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="diOne.Tests/diOne.Tests.csproj" />
+  <Project Path="diOne/diOne.csproj" />
+</Solution>
