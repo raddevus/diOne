@@ -13,6 +13,10 @@ private readonly IMessageWriter writer;
 	    this.writer = writer;
 	}
 
+   public void Write (string msg){
+      writer.Write($"Salute! {msg}");
+      }
+
 	public void Exclaim()
 	{
 	    this.writer.Write("Hello DI!");
