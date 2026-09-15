@@ -1,3 +1,3 @@
 
-Interface IEmployeeRepo{
+public interface IEmployeeRepo{
 }

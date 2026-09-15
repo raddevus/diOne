@@ -1,4 +1,4 @@
 
 
-Interface IEmployeeService{
+public interface IEmployeeService {
 }

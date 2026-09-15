@@ -1,7 +1,7 @@
 
-public EmployeeSerivce: IEmployeeService{
-   IEmployeeRepo EmployeeRepo;
-   public EmployeeService (IEmployeeRepo employeeRepo){
+public class EmployeeSerivce: IEmployeeService{
+   IEmployeeRepo EmployeeRepo{get;set;}
+   public void EmployeeService (IEmployeeRepo employeeRepo){
       EmployeeRepo = employeeRepo; 
    }
 }
