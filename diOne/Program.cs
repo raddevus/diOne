@@ -1,10 +1,10 @@
 ﻿using Models;
-using Microsoft.Practices.Unity;
-using Edict.Common.DependencyInjection;
-using Edict.Common.DependencyInjection.Unity;
+using Unity;
+//using Edict.Common.DependencyInjection;
+//using Edict.Common.DependencyInjection.Unity;
 using Interfaces;
 
-var container = DependencyInjection.GetUnityContainer(DependencyInjection.GetContainer());
+IUnityContainer container = new UnityContainer();
 container.RegisterType<IMessageWriter, SpyMessageWriter>("spy");
 container.RegisterType<IMessageWriter, ConsoleMessageWriter>("con");
 container.RegisterType<IMessageWriter, ConsoleMessageWriter>();

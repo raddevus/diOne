@@ -8,7 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Edict.Common.DependencyInjection.Unity" Version="2.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Unity.Container" Version="5.11.11" />
   </ItemGroup>
 
 </Project>
