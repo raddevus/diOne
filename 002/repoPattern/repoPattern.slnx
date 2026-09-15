@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="repoPattern.Tests/repoPattern.Tests.csproj" />
+  <Project Path="repoPattern/repoPattern.csproj" />
+</Solution>
